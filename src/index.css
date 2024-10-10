@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: "Inter", sans-serif;
+}
+
+.star2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation: travel2 100s infinite ease;
+    animation-direction:reverse;
+}
+.star3 {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    animation: travel3 100s infinite ease;
+    animation-direction:reverse;
+}
+.star4 {
+    position: absolute;
+    top: 21%;
+    left: 100%;
+    animation: travel4 100s infinite ease;
+    animation-direction:reverse;
+}
+.star5 {
+    position: absolute;
+    top: 21%;
+    left: 100%;
+    animation: travel4 100s infinite ease;
+    animation-direction:reverse;
+}
+.star6 {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    animation: travel3 100s infinite ease;
+    animation-direction:reverse;
+}
+.star7 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation: travel2 100s infinite ease;
+    animation-direction:reverse;
+}
+.star8 {
+    position: absolute;
+    top: 21%;
+    left: 0%;
+    animation: travel1 100s infinite ease;
+    animation-direction:reverse;
+}
+
+
+.star1 {
+    animation: travel1 100s infinite ease;
+    animation-direction: reverse;
+    position: absolute;
+    left: 0;
+    top: 21%;
+}
+
+@keyframes travel1 {
+    10% {
+        top: 0%;
+        left: 20%;
+    }
+    30% {
+        top: 21%;
+        left: 40%;
+    }
+    50% {
+        top: 0%;
+        left: 70%;
+    }
+    90% {
+        top: 21%;
+        left: 100%;
+    }
+    100% {
+        top: 21%;
+        left: 0;
+    }
+}
+
+@keyframes travel3 {
+    20% {
+        top: 5%;
+        left: 100%;
+    }
+
+    40% {
+        top: 10%;
+        left: 0%;
+    }
+
+    70% {
+        top: 15%;
+        left: 100%;
+    }
+
+    90% {
+        top: 21%;
+        left: 0%;
+    }
+
+    100% {
+        top: 0;
+        left: 100%;
+    }
+}
+
+@keyframes travel4 {
+    20% {
+        top: 5%;
+        left: 0;
+    }
+
+    40% {
+        top: 10%;
+        left: 100%;
+    }
+
+    70% {
+        top: 15%;
+        left: 0%;
+    }
+
+    90% {
+        top: 21%;
+        left: 100%;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
+@keyframes travel2 {
+    10% {
+        top: 20%;
+        left: 20%;
+    }
+    30% {
+        top: 0%;
+        left: 40%;
+    }
+    50% {
+        top: 20%;
+        left: 70%;
+    }
+    90% {
+        top: 0%;
+        left: 100%;
+    }
+    100% {
+        top: 0%;
+        left: 0;
+    }
+    
+}
+
