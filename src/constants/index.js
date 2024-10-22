@@ -37,7 +37,7 @@ export const PROJECTS = [
   
   {
     title: "Portfolio Website",
-    link: "https://github.com/ChhatishK/myportfolio",
+    link: "https://github.com/ChhatishK/Portfolio/tree/master",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
